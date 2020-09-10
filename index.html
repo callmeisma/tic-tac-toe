@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe Game</title>
+  <meta charset='utf-8'>
+  <link rel='stylesheet' href='style.css'>
+</head>
+<body>
+  <h1>Tic Tac Toe Game</h1>
+  <div id="players" class="container">
+    <p id="p1">Player One</p>
+    <p id="p2">Player Two</p>
+  </div>
+  <table id="gameboard">
+    <tr>
+      <td id="0" class="cells"></td>
+      <td id="1" class="cells"></td>
+      <td id="2" class="cells"></td>
+    </tr>
+    <tr>
+      <td id="3" class="cells"></td>
+      <td id="4" class="cells"></td>
+      <td id="5" class="cells"></td>
+    </tr>
+    <tr>
+      <td id="6" class="cells"></td>
+      <td id="7" class="cells"></td>
+      <td id="8" class="cells"></td>
+    </tr>
+  </table>
+  <div id="endgame">
+    <div id="text"></div>
+    <button id="replay" onclick="startGame()">Replay</button> 
+  </div>
+  <script src='script.js'></script>
+</body>
+</html>
